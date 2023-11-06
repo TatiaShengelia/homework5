@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="25dp"
+        android:text="@string/register1"
+        android:textSize="30sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginStart="25dp"
+        android:text="@string/email"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginStart="25dp"
+        android:inputType="textPassword"
+        android:text="@string/password"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_next"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:text="@string/next" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
